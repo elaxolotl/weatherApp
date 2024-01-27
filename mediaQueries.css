@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .container {
+        margin: 5rem 1rem;
+    }
+
+    input{
+        width: 100px;
+    }
+    button{
+        width: 20px;
+        padding-left: 20px;
+    }
+}
