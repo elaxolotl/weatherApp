@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     form.addEventListener('submit', search)
     let target = 'tunis';
     const fetchData= async (target)=>{
-        let url=`http://api.weatherapi.com/v1/current.json?key=e36f60736c9b4ed0931220652242101&q=${target}&aqi=no`;
+        let url=`https://api.weatherapi.com/v1/current.json?key=e36f60736c9b4ed0931220652242101&q=${target}&aqi=no`;
         const res = await fetch(url);
         const data=await res.json();
         console.log(data);
